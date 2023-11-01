@@ -28,7 +28,7 @@ jobs:
 
       - name: Build with Lazarus
         run: |
-          lazbuild src/standard/pasls.lpr
+          lazbuild src/pascallanguageserver.lpg
           
       - name: Upload Pascal Language Server
         uses: actions/upload-artifact@v3
